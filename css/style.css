@@ -25,7 +25,7 @@ body {
   -o-background-size: cover;
 
   height: 150px;
-  margin-top: -65px;
+  margin-top: -70px;
   display: none;
 }
 
@@ -106,7 +106,8 @@ body {
   display: none;
 }
 
-@media only screen and (max-width: 900px) {
+@media (max-width: 900px) {
+
     body {
       overflow: auto;
       background: red;
@@ -124,4 +125,5 @@ body {
       max-width: 100%;
       box-shadow: none;
     }
+
 }
