@@ -14,10 +14,11 @@ body {
   width: 360px;
   padding: 8% 0 0;
   margin-left:100px;
+  padding: 4% 0 0;
 }
 
 .mobile-topo {
-  background: url('http://placehold.it/1920x1080') no-repeat center center;
+  background: url('http://placehold.it/900x150') no-repeat center center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -25,7 +26,6 @@ body {
   -o-background-size: cover;
 
   height: 150px;
-  margin-top: -70px;
   display: none;
 }
 
@@ -38,7 +38,19 @@ body {
   padding: 45px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
-.form input[type="text"] {
+
+.form h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: -30px;
+  font-weight: 200;
+  width: 300px;
+  margin-left: -15px;
+}
+
+.form input[type="text"],input[type="email"] {
   font-family: "Roboto", sans-serif;
   outline: 0;
   background: #f2f2f2;
@@ -86,7 +98,7 @@ body {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
-  background: #4CAF50;
+  background: #264477;
   width: 100%;
   border: 0;
   padding: 15px;
@@ -110,11 +122,12 @@ body {
 
     body {
       overflow: auto;
-      background: red;
+      background: none;
     }
     .apoio-page {
         margin: 0 auto;
         width: 100%;
+        padding: inherit;
     }
 
     .mobile-topo {
