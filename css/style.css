@@ -139,4 +139,8 @@ body {
       box-shadow: none;
     }
 
+    .form h1 {
+      margin-left: 0;
+    }
+
 }
