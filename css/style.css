@@ -1,6 +1,7 @@
 body {
   background: url('../img/bg.jpeg') no-repeat center center;
   background-size: cover;
+  background-position: bottom;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
