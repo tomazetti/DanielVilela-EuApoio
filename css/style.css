@@ -18,7 +18,7 @@ body {
 }
 
 .mobile-topo {
-  background: url('http://placehold.it/900x150') no-repeat center center;
+  background: url('../img/topo_mobile.jpeg') no-repeat center center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
