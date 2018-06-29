@@ -1,3 +1,7 @@
+html {
+  min-height: 100%;
+}
+
 body {
   background: url('../img/bg.jpeg') no-repeat center top;
   background-size: cover;
