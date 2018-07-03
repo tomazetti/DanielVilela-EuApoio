@@ -4,10 +4,9 @@ html {
 
 body {
   background: url('../img/bg.jpeg') no-repeat center top;
-  background-size: cover;
+  background-size: contain;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
   -o-background-size: cover;
   overflow: hidden;
 }
